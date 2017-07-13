@@ -1,0 +1,140 @@
+#container{
+	width:100%;
+	height:auto;
+	background-color:CadetBlue;
+}
+
+#nav{
+	width:100%;
+	height:5em;
+	background-color:white;
+	margin-bottom:50px;
+	border-bottom:5px solid silver;
+	box-shadow:0px 5px 20px darkcyan;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.about{
+	margin-left:400px;
+}
+
+li a {
+	float:left;
+    display: block;
+    color: #A8A8A8;
+    text-align: center;
+    padding: 33px 16px;
+    text-decoration: none;
+    font-size:15px;
+    font-family:"Times News Roman",Helvetica,Arial;
+}
+
+
+li a:hover:not(.active) {
+    background-color:DarkCyan;
+}
+
+li a:hover{
+	color:white;
+}
+
+.active {
+	margin-left:150px;
+    background-color: DarkCyan;
+    color:white;
+    font-size:30px;
+    padding: 25px 16px;
+    font-family:"Times News Roman",Helvetica,Arial;
+}
+
+#about{
+	width:960px;
+	min-height:350px;
+	background-color:white;
+	margin: auto;
+}
+
+#hr-one{
+	width:620px;
+}
+
+#inner{
+	width:650px;
+	height:auto;
+	background-color:none;
+	float:left;
+}
+
+h1{
+	font-size:40px;
+	font-family:"Times News Roman",Helvetica, Arial;
+	color:darkcyan;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+img{
+	float:left;
+	width:250px;
+	height:175px;
+	margin-right:15px;
+	margin-bottom:15px;
+	margin-left:15px;
+}
+
+p{
+	margin-left:20px;
+	margin-top:20px;
+	font-family:"Times News Roman",Helvetica, Arial;
+	font-size:16px;
+}
+
+#connect{
+	width:250px;
+	height:200px;
+	background-color:lemonchiffon;
+	float:left;
+	margin-left:30px;
+	margin-top:15px;
+}
+
+#hr-two{
+	width:225px;
+	margin-top:15px;
+}
+
+#connectwithme{
+	font-size:25px;
+	font-family:"Times News Roman",Helvetica, Arial;
+	color:darkcyan;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+.linky{
+	width:50px;
+	height:50px;
+}
+
+#footer{
+	width:100%;
+	height:5em;
+	background-color:#696969;
+	margin-top:70px;
+	border-top:5px solid darkcyan;
+}
+
+span{
+	margin-top:3em;
+	display:block;
+	text-align:center;
+	font-family:"Times News Roman",Helvetica,Arial;
+	font-size:12px;
+	color:silver;
+}
